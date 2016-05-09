@@ -6,7 +6,7 @@ This is intended as a personal reference for iOS best practices.
 - [Remove unnecessary imports in headers](http://stackoverflow.com/questions/1479085/how-to-decrease-build-times-speed-up-compile-time-in-xcode/1479104#1479104)
 - [Use forward declarations in headers and move imports to implementations](http://stackoverflow.com/questions/1479085/how-to-decrease-build-times-speed-up-compile-time-in-xcode/1479104#1479104)
 ```
-@import "ImportClass.h"
+@class "ImportClass.h"
 // not #import "ImportClass.h"
 
 @interface MyClass : NSObject
